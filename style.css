@@ -55,7 +55,7 @@
     padding-bottom: 15%;
 }
 .firstleft h1{
-   color:  #adc7de;;
+    color: #d2e0ed;
     padding-top: 10%;
     font-size: 50px;
     width: 75%;
@@ -224,7 +224,6 @@ font-size: 120%;
     border-top: 4px solid rgb(255, 255, 255);
     width: 85%;
     margin: auto;
-    /* margin-left: 3rem; */
     position: relative;
     height: 40vh;
     margin-top: -10%;
@@ -233,7 +232,6 @@ font-size: 120%;
     padding-top: 15px;
 }
 .boxx:hover{
-    /* border-top: 4px solid #fdc134 ; */
     transition: 0.32s;
 }
 .boxx:hover .image{
@@ -286,10 +284,10 @@ margin: auto;
 margin-top: 6%;
 padding-bottom: 80px;
 }
-.h6{
+.hyf{
     background: linear-gradient(rgb(242, 246, 250) 0%, rgb(255, 255, 255) 100%)
 }
-.h6 h2{
+.hyf h2{
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
@@ -302,7 +300,7 @@ padding-bottom: 80px;
     font-size: 20px;
     font-weight: 700;
 }
-.h6 .tiny{
+.hyf .tiny{
     width: 100px;
     height: 3px;
     bottom: 0px;
@@ -314,7 +312,7 @@ padding-bottom: 80px;
     display: flex;
     width: 95%;
     margin-top: 3%;  
-    padding: 10px 125px;  
+    margin: auto;
 }
 #ou{
     text-align: center;
@@ -333,6 +331,7 @@ padding-bottom: 80px;
     color: #444444;
     font-size: 14px;
     line-height: 25px;
+
 }
 
 .econ h3{
@@ -353,11 +352,10 @@ padding-bottom: 80px;
     margin: 10px 20px;
     height: 30vh;
 }
-.ads{
-    float: left;
-}
+
 .econ{
     display: flex;
+    width: 100%;
 }
 #input{
     float: right;
@@ -372,11 +370,12 @@ form button{
     background-color: #ffa500;
     padding: 10px;
     width: 10vw;
+    margin: auto;
     border: none;
     margin: 10px 5px;
     cursor: pointer;
     text-align: center;
-    left: 35%;
+    left: 23%;
 }
 #area{
     padding: 10px 15px;
@@ -530,8 +529,53 @@ footer #copy{
     margin: -20px 0 0 17px;
     height: 29vh;
    }
+   .all{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+   }
+   #ou{
+    width: 90%;
+   }
+ 
    
-  
-   
+   .add{
+    width: 100%;
+   }
+ 
+   .econ{
+    flex-direction: column;
+    width: 95%;
+    
+   }
+  .in{
+    flex-direction: column;
+    padding-top: 35px;
+    width: 90%;
+  }
+  #sub{
+    width: 88%;
+  }
+  #area{
+    width: 88%;
+    margin-top: 10px;
+    padding: 0 10px 0,20px;
+  }
+  form button{
+    width: 50%;
+    text-align: center;
+  }
+
+  footer{
+    width: 100%;
+    height: 40vh;
+  }
+   footer form {
+    width: 70%;
+   }
+   footer form .submit{
+    width: 30%;
+   }
+
   
 }
